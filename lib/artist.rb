@@ -26,7 +26,7 @@ class Artist
   end
 
   def print_songs
-    puts @@all.map(&:name)
+    puts @@all.map(&:songs)
   end
 
 
