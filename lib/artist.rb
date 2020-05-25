@@ -28,7 +28,7 @@ class Artist
   end
 
   def print_songs
-    puts @@all.map {|name| songs.name = name}
+    puts songs.map(&:song)
     binding.pry
   end
 
