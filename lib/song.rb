@@ -14,7 +14,7 @@ class Song
   end
 
   def self.new_by_filename(file_name)
-    song = self.new
+    song = MP3Importer.new
     song.artist = file_name.split(" - ")[1]
     song
   end
