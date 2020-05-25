@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
 
   @@all = []
@@ -27,6 +29,7 @@ class Artist
 
   def print_songs
     puts @@all.map {|name| song.name = name}
+    binding.pry
   end
 
 
