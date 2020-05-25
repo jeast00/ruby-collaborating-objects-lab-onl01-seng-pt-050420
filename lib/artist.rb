@@ -28,7 +28,6 @@ class Artist
   end
 
   def print_songs
-    puts songs.map(&:song)
     binding.pry
   end
 
