@@ -33,7 +33,9 @@ class Artist
 
   def self.create_by_name(name)
     artist = self.new
-
+    artist.name = name
+    @@all << artist
+    artist
   end
 
   def print_songs
